@@ -19698,6 +19698,7 @@ humanoid.HealthChanged:Connect(function(newHealth)
     end
     lastHealth = newHealth
 end)
+
 local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
@@ -19734,4 +19735,5 @@ humanoid.HealthChanged:Connect(function(newHealth)
     end
     lastHealth = newHealth
 end)
-return
+
+return nil
